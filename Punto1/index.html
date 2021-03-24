@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Punto 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="caja">
+        <div id="cabeza">
+            <div>
+                <form id="move">
+                    <label>Número 1:
+                        <input name="num1" id="num1" type="number" placeholder="Primer número" required autofocus>
+                    </label>
+
+                    <label>Número 2:
+                        <input name="num2" id="num2" type="number" placeholder="Segundo Nùmero" required>
+                    </label>
+                    <br>
+                    <div id="land" class="land">
+                    <label>Respuesta:
+                        <p id="respuesta" class="respuesta"></p>
+                    </label>
+                    </div>
+
+                    <input class="bot" id="sumar" type="button" name="sumar" value="sumar" onclick="operar('sumar');">
+
+                    <input class="bot" id="restar" type="button" name="restar" value="restar" onclick="operar('restar');">
+
+                    <input class="bot" id="multiplicar" type="button" name="multiplicar" value="multiplicar" onclick="operar('multiplicar');">
+
+                    <input class="bot" id="dividir" type="button" name="dividir" value="dividir" onclick="operar('dividir');">
+
+                    <input class="bot" id="potencia" type="button" name="potencia" value="potencia" onclick="operar('potencia');">
+
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Derechos reservados  Andres Felipe tuberquia David&copy;</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
